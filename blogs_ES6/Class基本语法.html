@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Class基本语法 | Erun&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/blog-solid.ico">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.64f7ac41.css" as="style"><link rel="preload" href="/assets/js/app.046e486f.js" as="script"><link rel="preload" href="/assets/js/2.cb9b70d5.js" as="script"><link rel="preload" href="/assets/js/11.dc480957.js" as="script"><link rel="prefetch" href="/assets/js/10.65033b73.js"><link rel="prefetch" href="/assets/js/12.dc9b98bc.js"><link rel="prefetch" href="/assets/js/13.20427e1b.js"><link rel="prefetch" href="/assets/js/14.c7574273.js"><link rel="prefetch" href="/assets/js/15.c9f6396d.js"><link rel="prefetch" href="/assets/js/16.dd8e599b.js"><link rel="prefetch" href="/assets/js/3.060301bd.js"><link rel="prefetch" href="/assets/js/4.d3a55895.js"><link rel="prefetch" href="/assets/js/5.15d4190c.js"><link rel="prefetch" href="/assets/js/6.18bcac4b.js"><link rel="prefetch" href="/assets/js/7.99688cf1.js"><link rel="prefetch" href="/assets/js/8.4e9db8b3.js"><link rel="prefetch" href="/assets/js/9.4450ef0b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.64f7ac41.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo2.png" alt="Erun's Blog" class="logo"> <span class="site-name can-hide">Erun's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Blogs" class="dropdown-title"><span class="title">Blogs</span> <span class="arrow down"></span></button> <button type="button" aria-label="Blogs" class="mobile-dropdown-title"><span class="title">Blogs</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs_ES6/Promise浅析.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs_network/tcp.html" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/blogs_works/uploadFile.html" class="nav-link">
+  业务相关
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/erun808" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Blogs" class="dropdown-title"><span class="title">Blogs</span> <span class="arrow down"></span></button> <button type="button" aria-label="Blogs" class="mobile-dropdown-title"><span class="title">Blogs</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs_ES6/Promise浅析.html" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/blogs_network/tcp.html" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/blogs_works/uploadFile.html" class="nav-link">
+  业务相关
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/erun808" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>ES6</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs_ES6/Promise浅析.html" class="sidebar-link">Promise浅析</a></li><li><a href="/blogs_ES6/手写Promise.html" class="sidebar-link">手写Promise</a></li><li><a href="/blogs_ES6/Class基本语法.html" class="active sidebar-link">Class基本语法</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="class基本语法"><a href="#class基本语法" class="header-anchor">#</a> Class基本语法</h1> <h3 id="_1、零碎要点"><a href="#_1、零碎要点" class="header-anchor">#</a> 1、零碎要点</h3> <p>⭐️ 类中定义的方法不加 <strong><code>function</code></strong> 关键字，方法之间不需要逗号分隔，加了逗号会报错。<br>
+⭐️ 类中的所有方法都是定义在类的 <strong><code>prototype</code></strong> 属性上的。<br>
+⭐️ 类必须使用 <strong><code>new</code></strong> 关键字调用，否则会报错。<br>
+⭐️ 类不存在提升，必须保证子类在父类定义之后定义<br>
+⭐️ 类内部的 <strong><code>this</code></strong> 指向，默认是指向类的实例，但如果单独提取出类中的某个方法，<strong><code>this</code></strong> 的指向会是 <strong><code>undefined</code></strong>，这是因为类内部默认使用严格模式。</p> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">class</span> <span class="token class-name">Logger</span><span class="token punctuation">{</span>
+        <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>pname <span class="token operator">=</span> <span class="token string">&quot;pname&quot;</span>
+        <span class="token punctuation">}</span>
+        <span class="token function">printName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>pname<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">const</span> logger <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Logger</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span>printName<span class="token punctuation">}</span> <span class="token operator">=</span> logger<span class="token punctuation">;</span>
+    <span class="token function">printName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// Error，此时的this指向是undefined</span>
+</code></pre></div><p>⭐️ <strong>扩展</strong>：</p> <ul><li><strong><code>Object.assign()</code></strong> 方法可以合并对象，所以会用来一次性向类中添加多个方法，如下代码所示：</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>    Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span><span class="token class-name">Person</span><span class="token punctuation">.</span>prototype<span class="token punctuation">,</span><span class="token punctuation">{</span>  <span class="token comment">// 为Person类添加多个方法</span>
+        <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function">toValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li><strong><code>__proto__</code></strong> 并非JavaScript语言本身特性，是各浏览器提供的，生产环境中使用 <strong><code>Object.getPrototypeOf()</code></strong> 方法获取实例对象的原型</li> <li>ES6为 <strong><code>new</code></strong> 关键字引入了 <strong><code>target</code></strong> 属性，该属性一般用在构造函数中，如果该构造函数是用 <strong><code>new</code></strong> 或 <strong><code>Reflect.constructor()</code></strong> 调用，<strong><code>new.target</code></strong> 会返回包含它的构造函数的引用，否则返回 <strong><code>undefined</code></strong>，所以可以用来判断构造函数是否是用 <strong><code>new</code></strong> 调用的，然后进一步处理。</li></ul> <h3 id="_2、静态方法"><a href="#_2、静态方法" class="header-anchor">#</a> 2、静态方法</h3> <p>在类中的方法前面加上 <strong><code>static</code></strong> 关键字，就表示该方法不会被实例继承，而只能直接通过类本身来调用，这就是静态方法。如果静态方法中包含 <strong><code>this</code></strong> 关键字，这个 <strong><code>this</code></strong> 指向类而不是实例。（这也说明了静态方法可以和非静态方法重名）。
+子类继承父类的静态方法，可用 <strong><code>super</code></strong> 对象调用父类的静态方法：</p> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">class</span> <span class="token class-name">Fa</span><span class="token punctuation">{</span>
+        <span class="token keyword">static</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token string">&quot;fa&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">class</span> <span class="token class-name">Ch</span> <span class="token keyword">extends</span> <span class="token class-name">Fa</span><span class="token punctuation">{</span>
+        <span class="token keyword">static</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// 重写父类静态函数</span>
+            <span class="token keyword">return</span> <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 调用父类静态函数</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><p><strong><code>super</code></strong> 关键字既可以当作函数使用，也可以当作对象使用。<strong><code>super</code></strong> 作为函数调用时，代表父类的 <strong>构造函数</strong>，作为对象时，在普通方法中，指向父类的 <strong>原型对象</strong>；在静态方法中，指向 <strong>父类</strong>。</p> <h3 id="_3、实例属性"><a href="#_3、实例属性" class="header-anchor">#</a> 3、实例属性</h3> <p>实例属性除了定义在 <strong><code>constructor()</code></strong> 方法的 <strong><code>this</code></strong> 上，还可以定义在类的最顶层，此时省略 <strong><code>this</code></strong> 关键字。</p> <div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">class</span> <span class="token class-name">Demo</span><span class="token punctuation">{</span>
+
+        age <span class="token operator">=</span> <span class="token number">18</span><span class="token punctuation">;</span> <span class="token comment">// 顶层定义实例属性</span>
+        <span class="token function-variable function">fn</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">//实例属性可以是方法</span>
+        obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">// 也可以是对象</span>
+
+        <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&quot;tom&quot;</span><span class="token punctuation">;</span> <span class="token comment">// 常规定义实例属性</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h3 id="_4、私有方法和私有属性"><a href="#_4、私有方法和私有属性" class="header-anchor">#</a> 4、私有方法和私有属性</h3> <p>这两种指的是只能在类的内部进行访问的方法和属性，外部不能访问。意思就是在 <strong><code>class</code></strong> 中的 <strong><code>this</code></strong> 可以调用，在 <strong><code>class</code></strong> 外不能用实例或类名来调用。但ES6目前还不提供私有属性和方法的语法，可以用 <strong><code>_</code></strong> 标记，但实际在外部是可以访问的。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blogs_ES6/手写Promise.html" class="prev">
+        手写Promise
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.046e486f.js" defer></script><script src="/assets/js/2.cb9b70d5.js" defer></script><script src="/assets/js/11.dc480957.js" defer></script>
+  </body>
+</html>
